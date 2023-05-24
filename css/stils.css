@@ -15,20 +15,26 @@ header {
   font-size: 35px;
   color: white;
 }
-
 /* Container for flexboxes */
 section {
   display: -webkit-flex;
   display: flex;
+
 }
 
 /* Style the navigation menu */
 nav {
+    skola{
+        position: absolute;
+    }
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
   background: #ccc;
   padding: 20px;
+  background-image: url("skola.jpg");
+  background-size: contain;
+   background-repeat: repeat;
 }
 
 /* Style the list inside the menu */
